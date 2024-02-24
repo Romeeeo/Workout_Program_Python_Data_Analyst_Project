@@ -1,0 +1,454 @@
+workout_id,workout,muscle_group,equipment,reps,num_of_sets,superset,program_week,date_of_workout,stage
+1,Back Squat,Legs,Barbell,12,4,no,1,2023-03-21,preperatory
+2,Wide Legged Pulses,Legs,Body Weight,20,4,yes,1,2023-03-21,preperatory
+3,Deadlifts,Legs,Hex bar,12,4,no,1,2023-03-21,preperatory
+4,Hamcurls,Legs,Machine,12,4,yes,1,2023-03-21,preperatory
+5,Leg Press,Legs,machine,12,4,no,1,2023-03-21,preperatory
+6,Squat Jumps,Legs,Body Weight,15,4,yes,1,2023-03-21,preperatory
+7,Bench Press,Chest,Barbell,12,4,no,1,2023-03-22,preperatory
+8,Push ups,Chest,Body Weight,15,4,yes,1,2023-03-22,preperatory
+9,Incline Press,Chest,Dumbbells,12,4,no,1,2023-03-22,preperatory
+10,Chest pull overs ,Chest,EZ curlbar,15,4,yes,1,2023-03-22,preperatory
+11,Chest Flys,Chest,Dumbbells,12,4,no,1,2023-03-22,preperatory
+12,Chest Flys,Chest,Dumbbells,10,4,yes,1,2023-03-22,preperatory
+13,Pull ups,Back,Thick bar,10,3,no,1,2023-03-23,preperatory
+14,Lat PullDown,Back,Lat bar,12,4,no,1,2023-03-23,preperatory
+15,Straight arm pull down ,Back,Lat bar,12,4,yes,1,2023-03-23,preperatory
+16,Laying T row ,Back,Machine,12,4,no,1,2023-03-23,preperatory
+17,Reverse pushups,Back,Barbell,12,4,yes,1,2023-03-23,preperatory
+18,Back ext,Back,Body Weight,15,3,no,1,2023-03-23,preperatory
+19,Shoulder press behind,Shoulders,Barbell,12,4,no,1,2023-03-24,preperatory
+20,Upright row,Shoulders,EZ curlbar,12,4,no,1,2023-03-24,preperatory
+21,Incline Seated curls,Biceps,Dumbbells,12,4,no,1,2023-03-24,preperatory
+22,Incline Seated curls dropset,Biceps,Dumbbells,10,4,yes,1,2023-03-24,preperatory
+23,Skull crushers,Triceps,EZ curlbar,12,4,no,1,2023-03-24,preperatory
+24,Tricep dips,Triceps,Bench,15,4,yes,1,2023-03-24,preperatory
+25,Preacher curls,Biceps,EZ curlbar,12,4,no,1,2023-03-24,preperatory
+26,Dips,Triceps,Machine,15,3,no,1,2023-03-24,preperatory
+27,Back Squat,Legs,Barbell,12,3,no,1,2023-03-25,preperatory
+28,Lunges ,Legs,Dumbbells,20,4,no,1,2023-03-25,preperatory
+29,Shoulder shrugs ,Legs,Dumbbells,15,4,yes,1,2023-03-25,preperatory
+30,Leg extension ,Legs,Machine,12,3,no,1,2023-03-25,preperatory
+31,Leg extension dropset,Legs,Machine,10,3,yes,1,2023-03-25,preperatory
+32,Hamstring curls ,Legs,Machine,12,4,no,1,2023-03-25,preperatory
+33,Hamstring curls dropset,Legs,Machine,10,4,yes,1,2023-03-25,preperatory
+34,Calf raises,Legs,Body Weight,30,3,no,1,2023-03-25,preperatory
+35,Front Squats,Legs,Barbell,12,4,no,2,2023-03-28,preperatory
+36,Box jumps ,Legs,Cubbies,10,4,yes,2,2023-03-28,preperatory
+37,Leg press,Legs,Machine,12,4,no,2,2023-03-28,preperatory
+38,Straight legged DL,Legs,Dumbbells,10,4,yes,2,2023-03-28,preperatory
+39,Single leg squat,Legs,Machine,12,4,no,2,2023-03-28,preperatory
+40,Calf raises,Legs,Machine,20,4,yes,2,2023-03-28,preperatory
+41,Bench Press,Chest,Barbell,12,4,no,2,2023-03-29,preperatory
+42,Elevated push ups,Chest,Body Weight,15,4,yes,2,2023-03-29,preperatory
+43,Incline press,Chest,Dumbbells,12,3,no,2,2023-03-29,preperatory
+44,Incline press dropset,Chest,Dumbbells,10,3,yes,2,2023-03-29,preperatory
+45,Chest Flys,Chest,Machine,12,3,no,2,2023-03-29,preperatory
+46,Chest Flys dropset,Chest,Machine,10,3,yes,2,2023-03-29,preperatory
+47,Chest Flys dropset,Chest,Machine,8,3,yes,2,2023-03-29,preperatory
+48,Lat pull downs,Back,Machine,12,4,no,2,2023-03-30,preperatory
+49,Pulls ups,Back,Body Weight,10,4,yes,2,2023-03-30,preperatory
+50,Seated rows,Back,Machine,12,3,no,2,2023-03-30,preperatory
+51,Seated rows dropset,Back,Machine,10,3,yes,2,2023-03-30,preperatory
+52,Bent over Rows,Back,Dumbbells,10,3,no,2,2023-03-30,preperatory
+53,Bent over Rows dropset,Back,Dumbbells,12,3,yes,2,2023-03-30,preperatory
+54,Bent over rows,Back,Barbell,15,3,no,2,2023-03-30,preperatory
+55,Shoulder press,Shoulders,Dumbbells,12,4,no,2,2023-03-31,preperatory
+56,Arnold Press,Shoulders,Dumbbells,15,4,yes,2,2023-03-31,preperatory
+57,Upright Rows,Shoulders,EZ curlbar,12,4,no,2,2023-03-31,preperatory
+58,Shoulder raises,Shoulders,Dumbbells,12,3,no,2,2023-03-31,preperatory
+59,Side raises,Shoulders,Dumbbells,12,3,yes,2,2023-03-31,preperatory
+60,Shoulder Shrugs ,Shoulders,Barbell,15,4,no,2,2023-03-31,preperatory
+61,Back Squat,Legs,Barbell,12,3,no,2,2023-04-01,preperatory
+62,Leg extensions,Legs,Machine,12,4,no,2,2023-04-01,preperatory
+63,Hamstring curls,Legs,Machine,12,4,yes,2,2023-04-01,preperatory
+64,full body squats,Legs,Body Weight,15,3,no,2,2023-04-01,preperatory
+65,Close grip bench press,Triceps,Barbell,12,4,no,2,2023-04-01,preperatory
+66,Skull crushers,Triceps,EZ curlbar,12,3,no,2,2023-04-01,preperatory
+67,Full curls,Biceps,EZ curlbar,12,3,no,2,2023-04-01,preperatory
+68,Gorilla curls,Biceps,Dumbbells,12,4,no,2,2023-04-01,preperatory
+69,Front Squats,Legs,Barbell,8,4,no,3,2023-04-04,Hypertrophy
+70,Box jumps ,Legs,Cubbies,10,4,yes,3,2023-04-04,Hypertrophy
+71,Leg press,Legs,Machine,8,3,no,3,2023-04-04,Hypertrophy
+72,Straight legged Deadlift,Legs,Dumbbells,10,3,yes,3,2023-04-04,Hypertrophy
+73,Single leg squat,Legs,Machine,12,3,no,3,2023-04-04,Hypertrophy
+74,Calf raises,Legs,Machine,30,4,yes,3,2023-04-04,Hypertrophy
+75,Bench Press,Chest,Barbell,8,4,no,3,2023-04-05,Hypertrophy
+76,Push ups,Chest,Body Weight,15,4,yes,3,2023-04-05,Hypertrophy
+77,Incline Press,Chest,Dumbbells,8,4,no,3,2023-04-05,Hypertrophy
+78,Incline flys,Chest,Dumbbells,8,4,yes,3,2023-04-05,Hypertrophy
+79,Chest Flys,Chest,Machine,8,4,no,3,2023-04-05,Hypertrophy
+80,Chest Flys dropset,Chest,Dumbbells,10,4,yes,3,2023-04-05,Hypertrophy
+81,Pull ups,Back,Body Weight,10,3,no,3,2023-04-06,Hypertrophy
+82,Lat pull downs,Back,Lat bar,8,4,no,3,2023-04-06,Hypertrophy
+83,Straight arm pull down ,Back,Lat bar,12,4,yes,3,2023-04-06,Hypertrophy
+84,Laying T row ,Back,Machine,8,4,no,3,2023-04-06,Hypertrophy
+85,Reverse pushups,Back,Barbell,12,4,yes,3,2023-04-06,Hypertrophy
+86,Back ext,Back,Dumbbells,10,3,no,3,2023-04-06,Hypertrophy
+87,Back ext,Back,Body Weight,12,3,yes,3,2023-04-06,Hypertrophy
+88,Shoulder press,Shoulders,Barbell,8,4,no,3,2023-04-07,Hypertrophy
+89,Upright row,Shoulders,EZ curlbar,10,3,no,3,2023-04-07,Hypertrophy
+90,Incline Seated curls,Biceps,Dumbbells,8,4,no,3,2023-04-07,Hypertrophy
+91,Incline Seated curls dropset,Biceps,Dumbbells,10,4,yes,3,2023-04-07,Hypertrophy
+92,Skull crushers,Triceps,EZ curlbar,8,3,no,3,2023-04-07,Hypertrophy
+93,Tricep dips,Triceps,Bench,15,3,yes,3,2023-04-07,Hypertrophy
+94,Preacher curls,Biceps,Dumbbells,8,4,no,3,2023-04-07,Hypertrophy
+95,Weighted dips,Triceps,Machine,12,3,no,3,2023-04-07,Hypertrophy
+96,Back Squat,Legs,Barbell,8,3,no,3,2023-04-08,Hypertrophy
+97,Lunges ,Legs,Dumbbells,20,4,no,3,2023-04-08,Hypertrophy
+98,Shoulder shrugs ,Legs,Barbell,15,4,yes,3,2023-04-08,Hypertrophy
+99,Leg extension ,Legs,Machine,8,3,no,3,2023-04-08,Hypertrophy
+100,Leg extension dropset,Legs,Machine,10,3,yes,3,2023-04-08,Hypertrophy
+101,Hamstring curls,Legs,Machine,6,4,no,3,2023-04-08,Hypertrophy
+102,Hamstring curls dropset,Legs,Machine,10,4,yes,3,2023-04-08,Hypertrophy
+103,Calf raises,Legs,Body Weight,30,3,no,3,2023-04-08,Hypertrophy
+104,Front Squats,Legs,Barbell,8,4,no,4,2023-04-11,Hypertrophy
+105,Box jumps,Legs,Cubbies,10,4,yes,4,2023-04-11,Hypertrophy
+106,Leg press,Legs,Machine,8,3,no,4,2023-04-11,Hypertrophy
+107,Straight legged DL,Legs,Dumbbells,10,3,yes,4,2023-04-11,Hypertrophy
+108,Single leg squat,Legs,Machine,12,3,no,4,2023-04-11,Hypertrophy
+109,Calf raises,Legs,Machine,30,4,yes,4,2023-04-11,Hypertrophy
+110,Bench Press,Chest,Barbell,8,4,no,4,2023-04-12,Hypertrophy
+111,Push ups,Chest,Body Weight,15,4,yes,4,2023-04-12,Hypertrophy
+112,Incline Press,Chest,Dumbbells,8,4,no,4,2023-04-12,Hypertrophy
+113,Incline flys,Chest,Dumbbells,8,4,yes,4,2023-04-12,Hypertrophy
+114,Chest Flys,Chest,Machine,8,4,no,4,2023-04-12,Hypertrophy
+115,Chest Flys dropset,Chest,Dumbbells,10,4,yes,4,2023-04-12,Hypertrophy
+116,Pull ups,Back,Body Weight,10,3,no,4,2023-04-13,Hypertrophy
+117,Lat Pull Down,Back,Lat bar,8,4,no,4,2023-04-13,Hypertrophy
+118,Straight arm pull down,Back,Lat bar,12,4,yes,4,2023-04-13,Hypertrophy
+119,Laying T row ,Back,Machine,8,4,no,4,2023-04-13,Hypertrophy
+120,Reverse pushups,Back,Barbell,12,4,yes,4,2023-04-13,Hypertrophy
+121,Back ext,Back,Dumbbells,10,3,no,4,2023-04-13,Hypertrophy
+122,Back ext,Back,Body Weight,12,3,yes,4,2023-04-13,Hypertrophy
+123,Shoulder press,Shoulders,Barbell,8,4,no,4,2023-04-14,Hypertrophy
+124,Upright row,Shoulders,EZ curlbar,10,3,no,4,2023-04-14,Hypertrophy
+125,Incline Seated curls,Biceps,Dumbbells,8,4,no,4,2023-04-14,Hypertrophy
+126,Incline Seated curls dropset,Biceps,Dumbbells,10,4,yes,4,2023-04-14,Hypertrophy
+127,Skull crushers,Triceps,EZ curlbar,8,3,no,4,2023-04-14,Hypertrophy
+128,Tricep dips,Triceps,Bench,15,3,yes,4,2023-04-14,Hypertrophy
+129,Preacher curls,Biceps,Dumbbells,8,4,no,4,2023-04-14,Hypertrophy
+130,Weighted dips,Triceps,Machine,10,3,no,4,2023-04-14,Hypertrophy
+131,Back Squat,Legs,Barbell,8,3,no,4,2023-04-15,Hypertrophy
+132,Lunges,Legs,Dumbbells,20,4,no,4,2023-04-15,Hypertrophy
+133,Shoulder shrugs,Shoulders,Barbell,15,4,yes,4,2023-04-15,Hypertrophy
+134,Leg extension,Legs,Machine,8,3,no,4,2023-04-15,Hypertrophy
+135,Leg extension dropset,Legs,Machine,10,3,yes,4,2023-04-15,Hypertrophy
+136,Hamstring Curls,Legs,Machine,6,4,no,4,2023-04-15,Hypertrophy
+137,Hamstring curls dropset,Legs,Machine,10,4,yes,4,2023-04-15,Hypertrophy
+138,Calf raises,Legs,Body Weight,30,3,no,4,2023-04-15,Hypertrophy
+139,Back Squats,Legs,Barbell,8,4,no,5,2023-04-18,Hypertrophy
+140,Incline sit ups,Legs,Bench,15,3,yes,5,2023-04-18,Hypertrophy
+141,Deadlifts,Legs,Barbell,6,5,no,5,2023-04-18,Hypertrophy
+142,Leg press,Legs,Machine,6,3,no,5,2023-04-18,Hypertrophy
+143,Knee raises,Legs,Machine,12,3,no,5,2023-04-18,Hypertrophy
+144,Flutter kicks,Legs,Machine,12,3,yes,5,2023-04-18,Hypertrophy
+145,Bench Press,Chest,Dumbbells,8,4,no,5,2023-04-19,Hypertrophy
+146,Full standing curls,Biceps,EZ curlbar,6,3,yes,5,2023-04-19,Hypertrophy
+147,Incline Bench press,Chest,Barbell,6,3,no,5,2023-04-19,Hypertrophy
+148,Incline curl,Biceps,Dumbbells,8,3,yes,5,2023-04-19,Hypertrophy
+149,Flat bench flys,Chest,Dumbbells,8,3,no,5,2023-04-19,Hypertrophy
+150,Gorilla curls,Biceps,Dumbbells,8,3,yes,5,2023-04-19,Hypertrophy
+151,Incline sit ups,Abs,Dumbbells,8,3,no,5,2023-04-19,Hypertrophy
+152,Lat pulldown,Back,Machine,6,4,no,5,2023-04-20,Hypertrophy
+153,Dips,Triceps,Machine,15,3,yes,5,2023-04-20,Hypertrophy
+154,Skull crushers,Triceps,EZ curlbar,6,4,no,5,2023-04-20,Hypertrophy
+155,Lat extensions,Back,Machine,8,3,yes,5,2023-04-20,Hypertrophy
+156,Bent over row,Back,Barbell,6,3,no,5,2023-04-20,Hypertrophy
+157,Close grip bench,Triceps,Barbell,6,3,no,5,2023-04-20,Hypertrophy
+158,Shoulder press,Shoulders,Barbell,6,4,no,5,2023-04-21,Hypertrophy
+159,Upright Rows,Shoulders,EZ curlbar,6,4,no,5,2023-04-21,Hypertrophy
+160,Shoulder shrugs,Shoulders,Dumbbells,6,3,no,5,2023-04-21,Hypertrophy
+161,Shoulder shrugs dropset,Shoulders,Dumbbells,8,3,yes,5,2023-04-21,Hypertrophy
+162,Front raises,Shoulders,Dumbbells,8,3,no,5,2023-04-21,Hypertrophy
+163,Lateral raises,Shoulders,Dumbbells,8,3,yes,5,2023-04-21,Hypertrophy
+164,Leg press,Legs,Machine,8,4,no,5,2023-04-22,Hypertrophy
+165,Knee raises,Abs,Machine,15,4,yes,5,2023-04-22,Hypertrophy
+166,Leg Curls,Legs,Machine,8,3,no,5,2023-04-22,Hypertrophy
+167,Leg extensions,Legs,Machine,8,3,yes,5,2023-04-22,Hypertrophy
+168,Hanging leg raises,Abs,Machine,10,3,no,5,2023-04-22,Hypertrophy
+169,Rope crunches,Abs,Machine,8,3,no,5,2023-04-22,Hypertrophy
+170,Back Squats,Legs,Barbell,6,4,no,6,2023-04-25,Loading
+171,Incline sit ups,Abs,Bench,15,3,yes,6,2023-04-25,Loading
+172,Deadlifts,Legs,Barbell,6,5,no,6,2023-04-25,Loading
+173,Leg press,Legs,Machine,6,3,no,6,2023-04-25,Loading
+174,Knee raises,Abs,Machine,10,3,no,6,2023-04-25,Loading
+175,Flutter kicks,Abs,Machine,10,3,yes,6,2023-04-25,Loading
+176,Bench Press,Chest,Barbell,6,4,no,6,2023-04-26,Loading
+177,Full standing curls,Biceps,EZ curlbar,6,3,yes,6,2023-04-26,Loading
+178,Incline Bench press,Chest,Dumbbells,6,4,no,6,2023-04-26,Loading
+179,Incline curl,Biceps,Dumbbells,8,3,yes,6,2023-04-26,Loading
+180,Incline bench flys,Chest,Dumbbells,6,3,no,6,2023-04-26,Loading
+181,Gorilla curls,Biceps,Dumbbells,6,3,yes,6,2023-04-26,Loading
+182,Flys,Chest,Machine,6,3,no,6,2023-04-26,Loading
+183,Flys dropset,Chest,Machine,6,3,yes,6,2023-04-26,Loading
+184,Lat pulldown,Back,Machine,6,4,no,6,2023-04-27,Loading
+185,Dips,Triceps,Machine,15,3,yes,6,2023-04-27,Loading
+186,Bent over row,Back,Machine,6,4,no,6,2023-04-27,Loading
+187,Skull crushers,Triceps,EZ curlbar,6,4,yes,6,2023-04-27,Loading
+188,Bent over row,Back,Dumbbells,6,3,no,6,2023-04-27,Loading
+189,Bent over row dropset,Back,Dumbbells,6,3,yes,6,2023-04-27,Loading
+190,Close grip bench,Triceps,Barbell,6,3,no,6,2023-04-27,Loading
+191,Dips,Triceps,Bench,6,3,yes,6,2023-04-27,Loading
+192,Shoulder press,Shoulders,Barbell,5,3,no,6,2023-04-28,Loading
+193,Upright Rows,Shoulders,EZ curlbar,5,4,no,6,2023-04-28,Loading
+194,Shoulder shrugs,Shoulders,Dumbbells,5,3,no,6,2023-04-28,Loading
+195,Shoulder shrugs dropset,Shoulders,Dumbbells,5,3,yes,6,2023-04-28,Loading
+196,Front raises,Shoulders,Dumbbells,5,3,no,6,2023-04-28,Loading
+197,Lateral raises,Shoulders,Dumbbells,5,3,yes,6,2023-04-28,Loading
+198,Reverse Flys,Shoulders,Machine,10,3,no,6,2023-04-28,Loading
+199,Incline weight abs,Abs,Dumbbells,8,3,no,6,2023-04-28,Loading
+200,Incline weight abs dropset,Abs,Body Weight,10,3,yes,6,2023-04-28,Loading
+201,Squat,Legs,Barbell,6,4,no,6,2023-04-29,Loading
+202,Crunchy frogs,Legs,Bench,15,4,yes,6,2023-04-29,Loading
+203,Leg Curls,Legs,Machine,6,3,no,6,2023-04-29,Loading
+204,Leg extensions,Legs,Machine,6,3,yes,6,2023-04-29,Loading
+205,Hanging leg raises,Abs,Machine,10,3,no,6,2023-04-29,Loading
+206,Rope crunches,Abs,Machine,6,3,no,6,2023-04-29,Loading
+207,leg adductor,Legs,Machine,6,4,no,6,2023-04-29,Loading
+208,Back Squats,Legs,Barbell,5,5,no,7,2023-05-02,Loading
+209,Leg press,Legs,Machine,6,4,no,7,2023-05-02,Loading
+210,Calf Raises,Legs,Machine,15,4,yes,7,2023-05-02,Loading
+211,Rope crunches,Abs,Machine,8,3,no,7,2023-05-02,Loading
+212,Rope crunches dropset,Abs,Machine,12,3,yes,7,2023-05-02,Loading
+213,Leg Curl,Legs,Machine,6,5,no,7,2023-05-02,Loading
+214,Body squats pulses,Legs,Body Weight,20,5,yes,7,2023-05-02,Loading
+215,Bench Press,Chest,Barbell,6,4,no,7,2023-05-03,Loading
+216,Pushups,Chest,Body Weight,12,4,yes,7,2023-05-03,Loading
+217,Incline Bench press,Chest,Dumbbells,6,4,no,7,2023-05-03,Loading
+218,Incline Bench Press dropset,Chest,Dumbbells,8,4,yes,7,2023-05-03,Loading
+219,Flat Bench Flys,Chest,Dumbbells,6,3,no,7,2023-05-03,Loading
+220,Flat Bench Flys dropset,Chest,Dumbbells,8,3,yes,7,2023-05-03,Loading
+221,Standing curls,Biceps,EZ curlbar,8,3,no,7,2023-05-03,Loading
+222,Preachers Curls,Biceps,EZ curlbar,10,3,no,7,2023-05-03,Loading
+223,Deadlift,Back,Barbell,6,6,no,7,2023-05-04,Loading
+224,Lat Pull down,Back,Machine,6,4,no,7,2023-05-04,Loading
+225,Skull crushers,Triceps,EZ curlbar,6,4,yes,7,2023-05-04,Loading
+226,Bent over rows,Back,Dumbbells,6,2,no,7,2023-05-04,Loading
+227,Bent over rows dropset,Back,Dumbbells,8,2,yes,7,2023-05-04,Loading
+228,Bent over rows dropset,Back,Dumbbells,10,2,yes,7,2023-05-04,Loading
+229,Close grip bench,Triceps,Barbell,8,3,no,7,2023-05-04,Loading
+230,Weighted Dips,Triceps,Machine,10,3,no,7,2023-05-04,Loading
+231,Shoulder press,Shoulders,Barbell,6,4,no,7,2023-05-05,Loading
+232,Upright Rows,Shoulders,EZ curlbar,6,3,no,7,2023-05-05,Loading
+233,Shoulder press,Shoulders,Dumbbells,8,3,no,7,2023-05-05,Loading
+234,Front raises,Shoulders,Dumbbells,8,3,no,7,2023-05-05,Loading
+235,Lateral raises,Shoulders,Dumbbells,8,3,yes,7,2023-05-05,Loading
+236,Pull ups,Back,Machine,15,3,no,7,2023-05-05,Loading
+237,Leg raises,Abs,Machine,12,3,yes,7,2023-05-05,Loading
+238,Incline weight abs,Abs,Dumbbells,10,4,no,7,2023-05-05,Loading
+239,Leg press,Legs,Barbell,8,4,no,7,2023-05-06,Loading
+240,Walking lunges,Legs,Dumbbells,18,3,no,7,2023-05-06,Loading
+241,Leg Curls,Legs,Machine,8,3,no,7,2023-05-06,Loading
+242,Leg extensions,Legs,Machine,8,3,yes,7,2023-05-06,Loading
+243,Hanging leg raises,Abs,Machine,10,3,no,7,2023-05-06,Loading
+244,Rope crunches,Abs,Machine,10,3,no,7,2023-05-06,Loading
+245,Russian twist,Abs,Dumbbells,50,4,no,7,2023-05-06,Loading
+246,Back Squats,Legs,Barbell,5,5,no,8,2023-05-09,Loading
+247,Single leg press,Legs,Machine,4,3,no,8,2023-05-09,Loading
+248,Single leg press dropset,Legs,Machine,8,3,yes,8,2023-05-09,Loading
+249,Leg press,Legs,Machine,6,4,no,8,2023-05-09,Loading
+250,Calf Raises,Legs,Machine,10,4,yes,8,2023-05-09,Loading
+251,Leg Curl,Legs,Machine,4,3,no,8,2023-05-09,Loading
+252,Leg press,Legs,Machine,4,3,yes,8,2023-05-09,Loading
+253,Incline Press,Chest,Barbell,4,4,no,8,2023-05-10,Loading
+254,Pushups,Chest,Body Weight,10,4,yes,8,2023-05-10,Loading
+255,Bench press,Chest,Dumbbells,4,4,no,8,2023-05-10,Loading
+256,Bench press dropset,Chest,Dumbbells,6,4,yes,8,2023-05-10,Loading
+257,Chest press,Chest,Machine,4,3,no,8,2023-05-10,Loading
+258,Chest press dropset,Chest,Machine,6,3,yes,8,2023-05-10,Loading
+259,21s,Biceps,EZ curlbar,6,3,no,8,2023-05-10,Loading
+260,Deadlift,Back,Barbell,5,5,no,8,2023-05-11,Loading
+261,Lat Pull down,Back,Machine,4,3,no,8,2023-05-11,Loading
+262,Lat Pull down dropset,Back,Machine,6,3,yes,8,2023-05-11,Loading
+263,Bent over rows,Back,Barbell,4,3,no,8,2023-05-11,Loading
+264,Skull crushers,Triceps,EZ curlbar,6,3,yes,8,2023-05-11,Loading
+265,Pull ups,Chest,Body Weight,10,3,no,8,2023-05-11,Loading
+266,Reverse bent over rows,Back,Barbell,10,3,yes,8,2023-05-11,Loading
+267,Reverse Flys,Back,Machine,10,3,no,8,2023-05-11,Loading
+268,Shoulder press,Shoulders,Barbell,6,3,no,8,2023-05-12,Loading
+269,Upright Rows,Shoulders,EZ curlbar,6,3,yes,8,2023-05-12,Loading
+270,Shoulder press,Shoulders,Dumbbells,4,4,no,8,2023-05-12,Loading
+271,Front raises,Shoulders,Dumbbells,6,3,no,8,2023-05-12,Loading
+272,Lateral raises,Shoulders,Dumbbells,6,3,yes,8,2023-05-12,Loading
+273,Shoulder Shrugs,Shoulders,Dumbbells,4,3,no,8,2023-05-12,Loading
+274,Shoulder Shrugs dropset,Shoulders,Dumbbells,6,3,yes,8,2023-05-12,Loading
+275,Squats,Legs,Barbell,8,4,no,8,2023-05-13,Loading
+276,Walking lunges,Legs,EZ curlbar,18,3,no,8,2023-05-13,Loading
+277,Leg Curls,Legs,Machine,8,3,no,8,2023-05-13,Loading
+278,Leg extensions,Legs,Machine,8,3,yes,8,2023-05-13,Loading
+279,Hanging leg raises,Legs,Machine,10,3,no,8,2023-05-13,Loading
+280,Rope crunches,Abs,Machine,6,3,no,8,2023-05-13,Loading
+281,Russian twists,Abs,Dumbbells,50,4,no,8,2023-05-13,Loading
+282,Back Squat,Legs,Barbell,8,4,no,9,2023-05-16,Hypertrophy
+283,Wide legged pulses,Legs,Body Weight,20,4,yes,9,2023-05-16,Hypertrophy
+284,Deadlifts,Legs,Hex bar,10,4,no,9,2023-05-16,Hypertrophy
+285,Hamcurls,Legs,Machine,12,4,yes,9,2023-05-16,Hypertrophy
+286,Leg press,Legs,Machine,10,4,no,9,2023-05-16,Hypertrophy
+287,Squat Jumps,Legs,Body Weight,15,4,yes,9,2023-05-16,Hypertrophy
+288,Bench Press,Chest,Barbell,8,4,no,9,2023-05-17,Hypertrophy
+289,Incline curl,Biceps,Dumbbells,8,4,yes,9,2023-05-17,Hypertrophy
+290,Incline press,Chest,Dumbbells,10,3,no,9,2023-05-17,Hypertrophy
+291,Preacher curls,Biceps,EZ curlbar,10,3,yes,9,2023-05-17,Hypertrophy
+292,Incline Flys,Chest,Dumbbells,10,3,no,9,2023-05-17,Hypertrophy
+293,Gorilla curls,Biceps,Dumbbells,8,3,yes,9,2023-05-17,Hypertrophy
+294,Hanging leg raises,Abs,Machine,15,3,no,9,2023-05-17,Hypertrophy
+295,Core plate press crunches,Abs,Bench,12,3,no,9,2023-05-17,Hypertrophy
+296,Russian twists,Abs,Dumbbells,20,3,no,9,2023-05-17,Hypertrophy
+297,Pull ups,Back,Machine,10,3,no,9,2023-05-18,Hypertrophy
+298,Lat PullDown,Back,Machine,10,4,no,9,2023-05-18,Hypertrophy
+299,Tricep extension,Triceps,Machine,8,4,yes,9,2023-05-18,Hypertrophy
+300,Neutral grip rows,Back,Machine,10,3,no,9,2023-05-18,Hypertrophy
+301,Skull crushers,Triceps,EZ curlbar,10,3,yes,9,2023-05-18,Hypertrophy
+302,Reverse cable fly,Back,Machine,15,3,no,9,2023-05-18,Hypertrophy
+303,Dips,Triceps,Body Weight,12,3,yes,9,2023-05-18,Hypertrophy
+304,Decline core crunch,Abs,Body Weight,15,3,no,9,2023-05-18,Hypertrophy
+305,Back extension,Back,Machine,15,3,yes,9,2023-05-18,Hypertrophy
+306,Shoulder press,Shoulders,Dumbbells,10,4,no,9,2023-05-19,Hypertrophy
+307,Leg raises,Abs,Machine,15,4,yes,9,2023-05-19,Hypertrophy
+308,Upright rows,Shoulders,EZ curlbar,10,3,no,9,2023-05-19,Hypertrophy
+309,In and out crunches,Abs,Body Weight,15,3,yes,9,2023-05-19,Hypertrophy
+310,Front raises,Shoulders,Dumbbells,10,3,no,9,2023-05-19,Hypertrophy
+311,Lateral raises,Shoulders,Dumbbells,10,3,yno,9,2023-05-19,Hypertrophy
+312,Soulder shrugs,Shoulders,Dumbbells,15,3,no,9,2023-05-19,Hypertrophy
+313,Flutter kicks,Abs,Body Weight,20,3,no,9,2023-05-19,Hypertrophy
+314,Russian twists,Abs,Dumbbells,20,3,yes,9,2023-05-19,Hypertrophy
+315,planks,Abs,Body Weight,30,3,yes,9,2023-05-19,Hypertrophy
+316,Squats,Legs,Barbell,10,4,no,9,2023-05-20,Hypertrophy
+317,Walking lunges,Legs,EZ curlbar,18,3,no,9,2023-05-20,Hypertrophy
+318,Leg Curls,Legs,Machine,12,3,no,9,2023-05-20,Hypertrophy
+319,Leg extensions,Legs,Machine,12,3,yes,9,2023-05-20,Hypertrophy
+320,Hanging leg raises,Abs,Machine,10,3,no,9,2023-05-20,Hypertrophy
+321,Rope crunches,Abs,Machine,12,4,no,9,2023-05-20,Hypertrophy
+322,Russian twists,Abs,Dumbbells,50,4,no,9,2023-05-20,Hypertrophy
+323,Bench Press,Chest,Dumbbells,12,4,no,10,2023-05-23,Shred
+324,Full curl,Biceps,EZ curlbar,12,4,yes,10,2023-05-23,Shred
+325,Incline Flys,Chest,Dumbbells,12,3,no,10,2023-05-23,Shred
+326,Preacher curls,Biceps,EZ curlbar,10,3,yes,10,2023-05-23,Shred
+327,Push Press,Chest,Machine,15,3,no,10,2023-05-23,Shred
+328,Incline Curls,Biceps,Dumbbells,12,3,yes,10,2023-05-23,Shred
+329,Hanging leg raises,Abs,Machine,15,3,no,10,2023-05-23,Shred
+330,Core plate press crunches,Abs,Body Weight,15,3,no,10,2023-05-23,Shred
+331,Russian twists,Abs,Body Weight,60,3,no,10,2023-05-23,Shred
+332,Squats,Legs,Barbell,12,4,no,10,2023-05-24,Shred
+333,Walking lunges,Legs,EZ curlbar,18,3,no,10,2023-05-24,Shred
+334,Leg Curls,Legs,Machine,12,3,no,10,2023-05-24,Shred
+335,Leg extensions,Legs,Machine,12,3,yes,10,2023-05-24,Shred
+336,Hanging oblique raises,Abs,Body Weight,15,4,no,10,2023-05-24,Shred
+337,Rope crunches,Abs,Machine,12,4,no,10,2023-05-24,Shred
+338,Tricep hold Leg raises,Abs,Machine,12,4,no,10,2023-05-24,Shred
+339,Deadlift,Back,Barbell,12,4,no,10,2023-05-25,Shred
+340,Pull ups,Back,Body Weight,12,4,yes,10,2023-05-25,Shred
+341,Lat Pulldown,Back,Machine,12,3,no,10,2023-05-25,Shred
+342,Dips,Triceps,Machine,12,3,yes,10,2023-05-25,Shred
+343,Bent over rows,Back,Barbell,15,3,no,10,2023-05-25,Shred
+344,Tricep extension,Triceps,Machine,15,3,yes,10,2023-05-25,Shred
+345,Skull Crushers,Triceps,EZ curlbar,12,3,no,10,2023-05-25,Shred
+346,Back extension,Back,Body Weight,15,3,yes,10,2023-05-25,Shred
+347,Flutter kicks,Abs,Body Weight,15,3,no,10,2023-05-25,Shred
+348,Crunches,Abs,Body Weight,15,3,yes,10,2023-05-25,Shred
+349,In and outs,Abs,Body Weight,15,3,yes,10,2023-05-25,Shred
+350,Shoulder press,Shoulders,Dumbbells,12,4,no,10,2023-05-26,Shred
+351,Leg raises,Abs,Body Weight,15,4,yes,10,2023-05-26,Shred
+352,Upright rows,Shoulders,EZ curlbar,12,3,no,10,2023-05-26,Shred
+353,In and out crunches,Abs,Body Weight,15,3,yes,10,2023-05-26,Shred
+354,Front raises,Shoulders,Dumbbells,12,3,no,10,2023-05-26,Shred
+355,Lateral raises,Shoulders,Dumbbells,10,3,yes,10,2023-05-26,Shred
+356,Shoulder shrugs,Shoulders,Dumbbells,15,3,no,10,2023-05-26,Shred
+357,Flutter kicks,Abs,Body Weight,15,3,no,10,2023-05-26,Shred
+358,Russian twists,Abs,Body Weight,15,3,yes,10,2023-05-26,Shred
+359,planks,Abs,Body Weight,30,3,yes,10,2023-05-26,Shred
+360,Push ups,Chest,Body Weight,15,3,no,10,2023-05-27,Shred
+361,Dips,Triceps,Body Weight,10,3,yes,10,2023-05-27,Shred
+362,Berpees,Chest,Body Weight,10,3,yes,10,2023-05-27,Shred
+363,Box jumps,Legs,Body Weight,10,3,no,10,2023-05-27,Shred
+364,In and outs,Abs,Body Weight,15,3,yes,10,2023-05-27,Shred
+365,Squat jumps,Legs,Body Weight,10,3,yes,10,2023-05-27,Shred
+366,Russian twists,Abs,Body Weight,15,3,no,10,2023-05-27,Shred
+367,Flutter kicks,Abs,Body Weight,15,3,yes,10,2023-05-27,Shred
+368,Pull ups,Back,Body Weight,10,3,yes,10,2023-05-27,Shred
+369,Bench Press,Chest,Dumbbells,12,4,no,11,2023-05-30,Shred
+370,Full curl,Biceps,EZ curlbar,12,4,yes,11,2023-05-30,Shred
+371,Incline Flys,Chest,Dumbbells,12,3,no,11,2023-05-30,Shred
+372,Preacher curls,Biceps,EZ curlbar,10,3,yes,11,2023-05-30,Shred
+373,Push Press,Chest,Machine,15,3,no,11,2023-05-30,Shred
+374,Incline Curls,Biceps,Dumbbells,12,3,yes,11,2023-05-30,Shred
+375,Hanging leg raises,Abs,Machine,15,3,no,11,2023-05-30,Shred
+376,Core plate press crunches,Abs,Body Weight,15,3,no,11,2023-05-30,Shred
+377,Russian twists,Abs,Body Weight,60,3,no,11,2023-05-30,Shred
+378,Squats,Legs,Barbell,12,4,no,11,2023-05-31,Shred
+379,Walking lunges,Legs,EZ curlbar,18,3,no,11,2023-05-31,Shred
+380,Leg Curls,Legs,Machine,12,3,no,11,2023-05-31,Shred
+381,Leg extensions,Legs,Machine,12,3,yes,11,2023-05-31,Shred
+382,Hanging oblique raises,Abs,Body Weight,15,4,no,11,2023-05-31,Shred
+383,Rope crunches,Abs,Machine,12,4,no,11,2023-05-31,Shred
+384,Tricep hold Leg raises,Abs,Machine,12,4,no,11,2023-05-31,Shred
+385,Deadlift,Back,Barbell,12,4,no,11,2023-06-01,Shred
+386,Pull ups,Back,Body Weight,12,4,yes,11,2023-06-01,Shred
+387,Lat Pulldown,Back,Machine,12,3,no,11,2023-06-01,Shred
+388,Dips,Triceps,Machine,12,3,yes,11,2023-06-01,Shred
+389,Bent over rows,Back,Barbell,15,3,no,11,2023-06-01,Shred
+390,Tricep extension,Triceps,Machine,15,3,yes,11,2023-06-01,Shred
+391,Skull Crushers,Triceps,EZ curlbar,12,3,no,11,2023-06-01,Shred
+392,Back extension,Back,Body Weight,15,3,yes,11,2023-06-01,Shred
+393,Flutter kicks,Abs,Body Weight,15,3,no,11,2023-06-01,Shred
+394,Crunches,Abs,Body Weight,15,3,yes,11,2023-06-01,Shred
+395,In and outs,Abs,Body Weight,15,3,yes,11,2023-06-01,Shred
+396,Shoulder press,Shoulders,Dumbbells,12,4,no,11,2023-06-02,Shred
+397,Leg raises,Abs,Body Weight,15,4,yes,11,2023-06-02,Shred
+398,Upright rows,Shoulders,EZ curlbar,12,3,no,11,2023-06-02,Shred
+399,In and out crunches,Abs,Body Weight,15,3,yes,11,2023-06-02,Shred
+400,Front raises,Shoulders,Dumbbells,12,3,no,11,2023-06-02,Shred
+401,Lateral raises,Shoulders,Dumbbells,10,3,yes,11,2023-06-02,Shred
+402,Shoulder shrugs,Shoulders,Dumbbells,15,3,no,11,2023-06-02,Shred
+403,Flutter kicks,Abs,Body Weight,15,3,no,11,2023-06-02,Shred
+404,Russian twists,Abs,Body Weight,15,3,yes,11,2023-06-02,Shred
+405,planks,Abs,Body Weight,30,3,yes,11,2023-06-02,Shred
+406,Push ups,Chest,Body Weight,15,3,no,11,2023-06-03,Shred
+407,Dips,Triceps,Body Weight,10,3,yes,11,2023-06-03,Shred
+408,Berpees,Chest,Body Weight,10,3,yes,11,2023-06-03,Shred
+409,Box jumps,Legs,Body Weight,10,3,no,11,2023-06-03,Shred
+410,In and outs,Abs,Body Weight,15,3,yes,11,2023-06-03,Shred
+411,Squat jumps,Legs,Body Weight,10,3,yes,11,2023-06-03,Shred
+412,Russian twists,Abs,Body Weight,15,3,no,11,2023-06-03,Shred
+413,Flutter kicks,Abs,Body Weight,15,3,yes,11,2023-06-03,Shred
+414,Pull ups,Back,Body Weight,10,3,yes,11,2023-06-03,Shred
+415,Full Squats,Legs,Barbell,12,4,no,12,2023-06-06,Shred
+416,Hanging leg raise,Abs,Body Weight,10,4,yes,12,2023-06-06,Shred
+417,Leg press,Legs,Machine,15,3,no,12,2023-06-06,Shred
+418,Decline crunch,Abs,Dumbbells,10,3,yes,12,2023-06-06,Shred
+419,Leg extension,Legs,Machine,10,3,no,12,2023-06-06,Shred
+420,Leg extension dropset,Legs,Machine,12,3,yes,12,2023-06-06,Shred
+421,Hamstring curl,Legs,Machine,16,3,no,12,2023-06-06,Shred
+422,Calf Raises,Legs,Body Weight,20,3,yes,12,2023-06-06,Shred
+423,Incline press,Chest,Barbell,10,4,no,12,2023-06-07,Shred
+424,Incline curl,Biceps,Dumbbells,8,4,yes,12,2023-06-07,Shred
+425,Flat Bench press,Chest,Dumbbells,16,3,no,12,2023-06-07,Shred
+426,Iso Preacher curls,Biceps,Dumbbells,12,3,yes,12,2023-06-07,Shred
+427,Incline Flys,Chest,Dumbbells,12,3,no,12,2023-06-07,Shred
+428,Gorilla Curls,Biceps,Dumbbells,16,3,yes,12,2023-06-07,Shred
+429,Incline Chest raises,Chest,Dumbbells,10,3,no,12,2023-06-07,Shred
+430,Dips,Chest,Body Weight,10,3,yes,12,2023-06-07,Shred
+431,Pull ups,Back,Body Weight,10,4,no,12,2023-06-08,Shred
+432,Tricep Extension,Triceps,Machine,12,4,yes,12,2023-06-08,Shred
+433,Cable Rows,Back,Machine,15,3,no,12,2023-06-08,Shred
+434,Hanging Oblique knee crunches,Abs,Body Weight,10,3,yes,12,2023-06-08,Shred
+435,Reverse flys,Back,Machine,15,3,no,12,2023-06-08,Shred
+436,Flutter kicks,Abs,Body Weight,15,3,yes,12,2023-06-08,Shred
+437,Back extension,Back,Machine,10,3,no,12,2023-06-08,Shred
+438,Weighted Russian twists,Abs,Dumbbells,20,3,yes,12,2023-06-08,Shred
+439,Shoulder press,Shoulders,Dumbbells,10,4,no,12,2023-06-09,Shred
+440,Core pulldown crunches,Abs,Machine,12,4,yes,12,2023-06-09,Shred
+441,Front raises,Shoulders,Dumbbells,12,3,no,12,2023-06-09,Shred
+442,Side raises,Shoulders,Machine,10,3,yes,12,2023-06-09,Shred
+443,Hanging leg raises,Abs,Body Weight,12,3,no,12,2023-06-09,Shred
+444,Hanging knee crunches,Abs,Dumbbells,16,3,yes,12,2023-06-09,Shred
+445,Shoulder press,Shoulders,Machine,10,3,no,12,2023-06-09,Shred
+446,Leg press,Legs,Machine,8,3,no,12,2023-06-10,Shred
+447,Squat Jumps,Legs,Body Weight,20,3,yes,12,2023-06-10,Shred
+448,Bench Press,Chest,Barbell,8,3,no,12,2023-06-10,Shred
+449,Wide hand pushups,Chest,Body Weight,15,3,yes,12,2023-06-10,Shred
+450,Lat pulldown,Back,Machine,10,3,no,12,2023-06-10,Shred
+451,Shoulder press,Shoulders,Dumbbells,10,3,no,12,2023-06-10,Shred
+452,Hammer curls,Biceps,Dumbbells,12,3,no,12,2023-06-10,Shred
+453,Dips,Triceps,Body Weight,10,3,yes,12,2023-06-10,Shred
