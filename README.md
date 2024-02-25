@@ -359,4 +359,150 @@ __Number of days off__
 
 We first have to calculate the number of days we workout each month:
 
+```
+# Month of March
+mar_month = df[df['month'] == 'mar'].copy()
+
+count_of_workout_in_march = mar_month['date_of_workout'].value_counts().count()
+```
+
+```
+# Month of April
+apr_month = df[df['month'] == 'apr'].copy()
+
+count_of_workout_in_april = apr_month['date_of_workout'].value_counts().count()
+```
+
+```
+# Month of May
+may_month = df[df['month'] == 'may'].copy()
+
+count_of_workout_in_may = may_month['date_of_workout'].value_counts().count()
+```
+
+```
+# Month of June'
+jun_month = df[df['month'] == 'jun'].copy()
+
+count_of_workout_in_june = jun_month['date_of_workout'].value_counts().count()
+```
+
+Then we will calculate the number of days off per month by subtracting the number of days working out by __30__.
+
+```
+# Calculate the number of days off
+days_off_mar = 30 - count_of_workout_in_march
+days_off_apr = 30 - count_of_workout_in_april
+days_off_may = 30 - count_of_workout_in_may
+days_off_jun = 30 - count_of_workout_in_june
+
+print("Days off in the month of March:", days_off_mar)
+print("Days off in the month of April:", days_off_apr)
+print("Days off in the month of May:", days_off_may)
+print("Days off in the month of June:", days_off_jun)
+```
+
+This is the result that we get:
+
+![w13](Images/w13.png)
+
+Next, lets plot this. We will create a new dataframe with the number of days working out per month:
+
+```
+data = {'month': ['mar', 'apr', 'may', 'jun'],
+        'days_working_out': [count_of_workout_in_march, count_of_workout_in_april, count_of_workout_in_may, count_of_workout_in_june],}
+
+df_months_worked_out = pd.DataFrame(data)
+```
+
+Then we will plot the dataframe:
+
+```
+sns.barplot(x='month', y='days_working_out', data=df_months_worked_out)
+
+plt.xlabel('Month')
+plt.ylabel('Days Working out')
+plt.title(' Number of days working out per month')
+```
+
+![w14](Images/w14.png)
+
+Let's now look at the total days of each stage the workout program consist of. The four stages in the program are `preperatory`, `hypertrophy`, `loading`, and `shred`.
+
+We will follow the same steps as before to plot this out:
+
+Figure out the number of days working out for each stage:
+
+```
+# Calculate the number of days working out for the preperatory stage
+prep_stage = df[df['stage'] == 'preperatory'].copy()
+
+prep_days_workout = prep_stage['date_of_workout'].value_counts().count()
+```
+
+```
+# Calculate the number of days working out for the hypertrophy stage
+hyp_stage = df[df['stage'] == 'hypertrophy'].copy()
+
+hyp_days_workout = hyp_stage['date_of_workout'].value_counts().count()
+```
+
+```
+# Calculate the number of days working out for the loading stage
+load_stage = df[df['stage'] == 'loading'].copy()
+
+load_days_workout = load_stage['date_of_workout'].value_counts().count()
+```
+
+```
+# Calculate the number of days working out for the shred stage
+shred_stage = df[df['stage'] == 'shred'].copy()
+
+shred_days_workout = shred_stage['date_of_workout'].value_counts().count()
+```
+
+Then we will make a dataframe and plot it:
+
+```
+data = {'stage': ['preperatory', 'hypertrophy', 'loading', 'shred'],
+        'days_working_out': [prep_days_workout, hyp_days_workout, load_days_workout, shred_days_workout]}
+
+df_stage_workout = pd.DataFrame(data)
+
+df_stage_workout
+```
+
+```
+# Plot the dataframe
+sns.barplot(x='stage', y='days_working_out', data=df_stage_workout)
+
+# Labels
+plt.xlabel('Stage')
+plt.ylabel('Days working out')
+plt.title('Number of days working out per Stage')
+```
+
+![w15](Images/w15.png)
+
+Here we can see that the `hypertrophy` stage makes up most of the program. This makes sense, as this is where most of the muscle growing is done, after preparing for it. The `preperatory` stage makes up the __least__ amount of days in the program. This tells us that the ___majority___ of the stage consist of __muscle growing and losing fat__. The beginning of the porgram (`preperatory` stage) gets you __ready__ and your body __prepared__ for the rest of the program that is to come, hence the name.
+
+Summary:
+  
+|Analysis and Insights|
+|------|
+|The program heavily focuses on building muscles for your legs.|
+|The program tends to lean more towards the 8-12 rep range and 3-4 sets range for most workouts.|
+|Workouts tend to increase in the month of April in the hypertrophy stage, where muscle growth and fat loss is most incetivised.|  
+|THe program utilizes mahines, dumbbells, and your body weight for most of the workout.|
+|Arms are less focused in this program (shoulders, triceps, and biceps).|
+|Workouts tend to be repeated throughout the weeks.|
+|The shred stage (towards the end of the program) is when the workout become more intense.|
+  
+## Act
+After analyzing the 12 week program, we can suggest recommendations to people on subscribing to the program.
+
+1. People will most likely need to have a gym memebership in order to utilize the equipment used in the program.
+2. Legs will need to be more prepared than any other muscle group.
+3. People will get more knowledge on workout and what muscle group they work on after the program is done, as workouts are easy to understand and they tend to repeat throughout the weeks.
+4. The program is each to understand and gives valuable specifics.
 
