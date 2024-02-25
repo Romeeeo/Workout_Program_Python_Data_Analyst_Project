@@ -8,7 +8,7 @@ In this case study, I will perform many real-world tasks of a junior data analys
 ### Quick Links
 Data Source: For this project I took one of my 12 week workout programs and created a CSV from it. You can download the Data [Here](https://drive.google.com/uc?export=download&id=1AJovdTjjJM06A0DlkZkRYzWrUd2h6Tub)
 
-Jupyter Notebook: [Jupyter Notebook](https://github.com/Romeeeo/Employee_exit_surveys/blob/main/employee_exit_survey.ipynb)
+Jupyter Notebook: [Jupyter Notebook](https://github.com/Romeeeo/Workout_Program_Python_Data_Analyst_Project/blob/main/workout_program_python.ipynb)
 
 
 ## Background
@@ -36,7 +36,7 @@ There is only one data file that consist of a workout program that spands over 1
 
 ## Process
 I will be using the Jupyter Notebook with Python and utilizing both Pandas and NumPy for analyzing the data and Seaborn for data visualization.
-### Reading in the CSV filee
+### Reading in the CSV file
 ```
 import pandas as pd
 import numpy as np
@@ -219,6 +219,22 @@ max_value = df['reps'].max()
 print("Range for number of reps throughout the workout program {}-{}:".format(min_value,max_value))
 ```
 
+## Analyze and Share
+
+Jupyter Notebook: [Jupyter Notebook](https://github.com/Romeeeo/Workout_Program_Python_Data_Analyst_Project/blob/main/workout_program_python.ipynb)
+
+Now that the data is clean and ready to be analyzed, let's focus on the analysis question that we discussed in the beginning of this project.
+
+<center>
+What are the key components of the 12 week workout program and how do the intensity levels differ?
+</center>
+
+__Total number of workouts__
+
+```
+df.shape[0]
+```
+
 __Number of workouts__ each month:
 
 ```
@@ -227,10 +243,120 @@ df['month'].value_counts()
 
 ![w3](Images/w3.png)
 
-Percentage of workouts for each muscle group:
+__Number of workouts for each muscle group:__
 
 ```
+# Number of workouts per muscle group throughout the program
+
+# Creating a bar chart using Seaborn
+sns.countplot(x='muscle_group', data=df, order=df['muscle_group'].value_counts().index)
+
+# Adding labels and title
+plt.ylabel('Number of workouts')
+plt.xlabel('Muscle Group')
+plt.title('Number of workout per Muscle Group')
+
+# Displaying the plot
+plt.show()
+```
+
+![w10](Images/w10.png)
+
+Here is the percentage distribution:
 
 ```
+df['muscle_group'].value_counts(normalize=True) * 100
+```
+
+![w6](Images/w6.png)
+
+Here we can clearly see that __leg workouts__ make up the most of the workout program. We are able to understand that this program __focuses__ on `legs` more than any other muscle group. On the other hand `biceps` make up the __least__ amount of workouts in the program.
+
+__Next lets find the average number of sets per workout:__
+
+```
+# Average number of sets per workout to the nearest whole number
+avg_sets = df['num_of_sets'].mean().round()
+
+print(avg_sets)
+```
+
+The result we get here is __3.0__, which gives us an average of 3 sets throughout the program.
+
+__Number of workouts per stage:__
+
+```
+df['stage'].value_counts()
+```
+
+![w7](Images/w7.png)
+
+As percentages:
+
+![w8](Images/w8.png)
+
+__Now let's check to see what eqipment is used throughout the program:__
+
+```
+df['equipment'].value_counts()
+```
+
+![w9](Images/w9.png)
+
+```
+# Number of workouts per equipment
+# Creating a horizontal histogram using Seaborn
+counts = df.groupby('equipment').size().reset_index(name='Count')
+
+sns.barplot(x='Count', y='equipment', orientation='horizontal', data=counts, order=df['equipment'].value_counts().index)
+
+# Adding labels and title
+plt.xlabel('Number of workouts')
+plt.ylabel('Equipment')
+plt.title('Number of workouts per equipment')
+
+# Displaying the plot
+plt.show()
+```
+
+![w12](Images/w12.png)
+
+Looking at the visual, we can observe that the top three equipment used in the program are `machine`, `dumbbells`, and `body weight` (body weight in the case is considered an equipment). On the other hand we can see that the `thick bar` is rarely used in the 12 week program, with only 1 workout using it out of all 453.
+
+__Number of workouts per muscle group each month:__
+
+```
+# Number of workouts per muscle group each month
+
+# create dataframe with count index
+counts = df.groupby(['month', 'muscle_group']).size().reset_index(name='Count')
+
+# custom order for the months
+custom_order = ['mar', 'apr', 'may', 'jun']
+
+# Sorting the DataFrame based on the custom order
+df_sorted = counts[counts['month'].isin(custom_order)].sort_values(by='month', key=lambda x: [custom_order.index(e) for e in x])
+
+# Creating a pointplot using Seaborn with counts on the y-axis and hue
+sns.lineplot(x='month', y='Count', hue='muscle_group', data=df_sorted)
+
+# Adding labels and title
+plt.xlabel('Month')
+plt.ylabel('Number of workouts')
+plt.title('Number of workouts per muscle group each month')
+
+# Displaying the plot
+plt.show()
+```
+
+![w11](Images/w11.png)
+
+In this visual we can see all see a peak in the number of workouts in the month of April and May. In this case, people should be prepared to get __more workouts__ in during those months, and provide sufficient time to complete each and all of the workouts.
+
+On the otherhand, the number of workouts tend to be the lowest in March and June at the beginning of the program and towards the end of the program. This makes sense, as the workouts at the beginning are preparing you for the program and the workouts at the end tend to be more intense at the end of the program in the `shred` stage.
+
+__Number of days off__
+
+We first have to calculate the number of days we workout each month:
 
 
