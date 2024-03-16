@@ -82,7 +82,7 @@ df.convert_dtypes()
 
 __Clean Column Names__
 ```
-dete_survey_updated.columns = dete_survey_updated.columns.str.lower().str.strip().str.replace(' ', '_')
+df.columns = df.columns.str.lower().str.strip().str.replace(' ', '_')
 ```
 Running this line of code updates all column names to lowercase using `str.lower()`, remove leading and trailing whitespaces `str.strip()`, and replace all spaces with `_` using `str.replace(' ', '_')`
 
